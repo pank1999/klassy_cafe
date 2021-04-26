@@ -371,7 +371,7 @@ https://templatemo.com/tm-558-klassy-cafe
                 </div>
                 <div class="col-lg-6">
                     <div class="contact-form">
-                        <form id="contact" action="" method="post">
+                        <form id="contact" action="table_reservation.php" method="post">
                           <div class="row">
                             <div class="col-lg-12">
                                 <h4>Table Reservation</h4>
@@ -388,7 +388,7 @@ https://templatemo.com/tm-558-klassy-cafe
                             </div>
                             <div class="col-lg-6 col-sm-12">
                               <fieldset>
-                                <input name="phone" type="text" id="phone" placeholder="Phone Number*" required="">
+                                <input name="phone" type="int" id="phone" placeholder="Phone Number*" required="" pattern=".{10}">
                               </fieldset>
                             </div>
                             <div class="col-md-6 col-sm-12">
